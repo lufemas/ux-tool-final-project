@@ -6,7 +6,7 @@
 
 body {
   font: 1em helvetica, arial, sans-serif;
-  background-color: pink;
+  background-color: #fff;
   color: #111;
 }
 
@@ -43,7 +43,7 @@ h1{
 #nav-summary {
   /* background-color: red; */
   display: inline-block;
-  width: 100%;
+  width: 50%;
 }
 
 #nav-summary ul{
