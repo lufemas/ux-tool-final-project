@@ -28,7 +28,7 @@ h1{
 #progress-bar{
   display: block;
   background-color: red;
-  width: 100%;
+  width: 0%;
   height: .2rem;
   color: rgba(255, 255, 255, 0);
   background: var(--primary-dark-color);
