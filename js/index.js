@@ -7,6 +7,7 @@ const $nextArticleTimer = $.querySelector(`.next-article-timer`)
 const $articleTitle = $.getElementById(`article-title`)
 const $nextArticleTitle = $.getElementById(`next-article-title`)
 const $cancelButton = $.getElementById(`cancel-button`)
+const $summaryLine = $.getElementById(`summary-line`)
 let nextArticle;
 let nextArticleIntervalReference; 
 let cancelNextArticleTimer = false;
@@ -65,7 +66,7 @@ for (child of $navSummaryList.children) { // For each child of the element UL  -
     summaryList.push({ 
         $subtitle: $.querySelector(child.children[0].getAttribute(`href`)), //Get the href property of the element 
         $summaryItem : child // Assign to the variable $summaryItem the child ?
-
+        
     }); 
 }
 
